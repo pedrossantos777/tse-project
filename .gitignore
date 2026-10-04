@@ -1,0 +1,42 @@
+# --- Arquivos temporários e de sessão do RStudio ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.httr-oauth
+.DS_Store
+.quarto/
+Thumbs.db
+
+# --- Cache de relatórios (Quarto / RMarkdown) ---
+*_cache/
+*_files/
+
+# --- Pastas de dados local (NÃO enviar dados pesados ao GitHub) ---
+data/
+dados/
+raw_data/s
+
+# --- Extensões de arquivos de dados pesados ---
+*.csv
+*.rds
+*.parquet
+*.xlsx
+*.xls
+*.dta
+*.sav
+*.zip
+*.7z
+*.gz
+*.tar.gz
+
+# --- Arquivos de dados geográficos/espaciais (se usar mapas) ---
+*.shp
+*.dbf
+*.shx
+*.prj
+*.gpkg
+
+# --- Credenciais e chaves de API ---
+.env
+*.key

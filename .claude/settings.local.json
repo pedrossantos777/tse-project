@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(iconv -f latin1 -t utf-8 bweb_2t_DF_311020221535.csv)",
+      "Bash(iconv -f latin1 -t utf-8)",
+      "Bash(Rscript *)",
+      "Bash(powershell -Command \"Get-ChildItem 'C:/Users/Espada/AppData/Local/R/cache/R/geocodebr/geocodebr_data_release_v0.4.1' | Select-Object Name, Length\" 2>&1)"
+    ]
+  }
+}
