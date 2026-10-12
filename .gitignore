@@ -17,7 +17,7 @@ data/
 dados/
 raw_data/s
 .claude/
-
+teste/
 
 # --- Extensões de arquivos de dados pesados ---
 *.csv
