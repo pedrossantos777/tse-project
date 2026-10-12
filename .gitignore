@@ -16,6 +16,8 @@ Thumbs.db
 data/
 dados/
 raw_data/s
+.claude
+
 
 # --- Extensões de arquivos de dados pesados ---
 *.csv
