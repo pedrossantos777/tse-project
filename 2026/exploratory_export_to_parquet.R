@@ -24,7 +24,7 @@ df_pres_sp <- dfpres |>
 df_unificado <- bind_rows(dfsp_gov, df_pres_sp)
 
 # Salve o arquivo Parquet
-#write_parquet(dfsp, "dados/votacao_secao_2026_SP.parquet")
+write_parquet(df_unificado, "dados/votacao_secao_2026_SP_unificado.parquet")
 
 #leitura parquet
 #dfsp <- read_parquet("dados/votacao_secao_2026_SP.parquet")
